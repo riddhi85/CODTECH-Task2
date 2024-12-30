@@ -1,0 +1,140 @@
+<!-- Personal Portfolio website-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #0078d7;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #005ea6;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #0078d7;
+            border-bottom: 2px solid #005ea6;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto;
+            display: block;
+        }
+        .skills-list, .projects-list {
+            list-style: none;
+            padding: 0;
+        }
+        .skills-list li, .projects-list li {
+            background: #f1f1f1;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 4px solid #0078d7;
+        }
+        footer {
+            background: #0078d7;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Riddhi Prajapati</h1>
+        <p>Web Developer | Student </p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+            <p>Hi! I'm Riddhi, a 20-year-old college student pursuing a degree in Computer Engineering at Silver Oak University, Ahemdabad. I am passionate about coding, web development, and building projects that make an impact. When I'm not coding, I enjoy reading and drawing.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Programming: Python, JavaScript, Php, </li>
+                <li>Web Development: HTML, CSS, React, Node.js</li>
+                <li>Database Management: MySQL, MongoDB</li>
+                <li>Version Control: Git, GitHub</li>
+                <li>Problem Solving & Algorithms</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul class="projects-list">
+                <li><strong>Personal Portfolio:</strong> A website to showcase my work and skills.</li>
+                <li><strong>Resort Management System:</strong> A real-time resort/hotel booking website using PHP and Mysql.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Let's connect! Feel free to reach out through any of the channels below:</p>
+            <ul>
+                <li>Email: riddhiprajapati135@gmail.com</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/riddhi-prajapati-85rkp" target="_blank">linkedin.com/in/riddhi-prajapati-85rkp</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Riddhi Prajapati. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
